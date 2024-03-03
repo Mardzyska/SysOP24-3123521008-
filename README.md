@@ -1,6 +1,6 @@
 Boot Process
+![Uploading WhatsApp Image 2024-03-03 at 20.03.58_3672de1b.jpg…]()
 
-![Screenshot (393)](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/a4cda9e7-cffd-45b2-b199-bdf652049b2a)
 
 Boot adalah proses awal pada saat menyalakan komputer dimana sistem komputer akan membaca seluruh hardware dan software guna memastikan bahwa komputer siap dinyalakan.
 
