@@ -140,14 +140,3 @@ Informasi Bench :
 
 Pada gambar diatas menunjukan dari Versi Bachmark dan informasi processor
 
-
-
-
-MIND MAPPING SISTEM OPERASI
-![1](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/29761742-cee3-4c5e-a745-01215f534f9b)
-![2](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/12f8f2ac-794c-48f8-83c4-b9e6f2cf2af0)
-![3](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/cf65ae70-aa05-47a1-81ad-6787000de1ca)
-![4](h![5](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/5236bf34-f21a-469b-8e83-63d3d669f7b2)
-t![6](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/7b1305bc-92a8-4cc0-98c0-61ae0655ede4)
-![7](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/09fd8098-1eed-45da-987c-2af3566a6ddb)
-tps://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/cd4ab6bd-2b3b-40b7-8de1-f1d63077c7da)
