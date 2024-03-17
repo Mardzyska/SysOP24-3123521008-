@@ -135,3 +135,35 @@ $  make uninstall
   $ flops64 $(nproc)
 ```
 ![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/774c7996-47b0-4d8e-a670-7755149080c3)
+
+# Analisa
+
+Penjelasan tentang fungsionalitas dari perintah Debian :
+
+* **make** : Perintah ini digunakan untuk mengkompilasi program dari sumber kode. Biasanya, Anda akan mengeksekusi **make** setelah melakukan perubahan pada kode sumber.
+* **make clean** : Perintah ini menghapus file-file sementara dan output dari proses kompilasi. Namun, perintah ini hanya memengaruhi direktori sumber/kompilasi dan tidak menghapus perangkat lunak yang telah diinstal sebelumnya.
+* **sudo make install** : Perintah ini menginstal perangkat lunak yang telah dikompilasi ke dalam sistem. Biasanya, perintah ini memerlukan hak akses administrator (dengan menggunakan sudo).
+* **sudo make uninstall** : Jika tersedia, perintah ini akan menghapus perangkat lunak yang telah diinstal sebelumnya menggunakan sudo make install. Namun, tidak semua perangkat lunak menyediakan perintah ini. Jika tidak tersedia, Anda harus menghapusnya secara manual.
+* **iosp64 $(nproc)** dan **flops64 $(nproc)** : Perintah ini mungkin spesifik untuk sistem atau perangkat lunak tertentu. Tanpa informasi lebih lanjut, saya tidak dapat memberikan penjelasan yang lebih rinci. Pastikan Anda merujuk pada dokumentasi atau panduan yang relevan untuk memahami perintah ini dengan lebih baik.
+
+## PERBANDINGAN EKSEKUSI
+https://docs.google.com/spreadsheets/d/1CVZH3rk8T0rY-0BirmPdzeeieXzrKRjIVq6fb6Yu5GQ/edit#gid=0
+  # Nomor 4
+```sh
+  $ su -l
+```
+```sh
+ $ apt install make
+```
+```sh
+ $ apt install git
+```
+```sh
+$ apt install gcc
+```
+```sh
+$ git clone https://github.com/ferryastika/flops-iops
+```
+```sh
+$ cd flops-iops
+```
