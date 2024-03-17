@@ -128,7 +128,8 @@ $  make uninstall
   
 ```sh
   $ iops64 $(nproc)
-```![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/8a5a9fea-36c3-4528-8ef9-5c167fe59b9f)
+```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/8a5a9fea-36c3-4528-8ef9-5c167fe59b9f)
 
 ```sh
   $ flops64 $(nproc)
