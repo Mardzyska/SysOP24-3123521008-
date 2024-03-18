@@ -109,4 +109,93 @@ $ rm tmp
 $ ls –l /etc | more
 $ ls –l /etc | sort | moret – surat
 ```
-2. 
+2. Untuk membelokkan standart output ke file, digunakan operator ">"
+
+```sh
+$ echo hello
+$ echo hello > output
+$ cat output
+```
+3.  Untuk menambahkan output ke file digunakan operator ">>"
+  ```sh
+$ echo bye >> output
+$ cat output
+```
+4. Untuk membelokkan standart input digunakan operator "<"
+  ```sh
+$ cat < output
+```
+5. Pembelokan standart input dan standart output dapat dikombinasikan tetapi tidak boleh menggunakan nama file yang sama sebagai standart input dan output.
+  ```sh
+$ cat < output > out
+$ cat out
+$ cat < output >> out
+$ cat out
+$ cat < output > output
+$ cat output
+$ cat < out >> out (Proses tidak berhenti)
+[Ctrl-c]
+$ cat out
+```
+
+## Percobaan 4 : Filter
+
+1. Pipa juga digunakan untuk mengkombinasikan utilitas sistem untuk membentuk fungsi yang lebih kompleks
+  ```sh
+ $ w –h | grep <user>
+ $ grep <user> /etc/passwd
+ $ ls /etc | wc
+ $ ls /etc | wc –l
+ $ cat > kelas1.txt
+ Badu
+ Zulkifli
+ Yulizir
+ Yudi
+ Ade
+ [Ctrl-d]
+ $ cat > kelas2.txt
+ Budi
+ Gama
+ Asep
+ Muchlis
+ [Ctrl-d]
+ $ cat kelas1.txt kelas2.txt | sort
+ $ cat kelas1.txt kelas2.txt > kelas.txt
+ $ cat kelas.txt | sort | uniq
+```
+## LATIHAN :
+
+1. Lihat daftar secara lengkap pada direktori aktif, belokkan tampilan standard output ke file baru.
+2. Lihat daftar secara lengkap pada direktori /etc/passwd, belokkan tampilan standard output ke file baru tanpa menghapus file baru sebelumnya.
+3. Urutkan file baru dengan cara membelokkan standard input.
+4. Urutkan file baru dengan cara membelokkan standard input dan standard output ke file baru.urut.
+5. Buatlah direktori latihan 2 sebanyak 2 kali dan belokkan standard error ke file rmdirerror.txt.
+6. Urutkan kalimat berikut :
+  ```sh
+Jakarta
+Bandung
+Surabaya
+Padang
+Palembang
+Lampung
+```
+Dengan menggunakan notasi here document (<@@@ ...@@@) . HINT
+
+7. Hitung jumlah baris, kata dan karakter dari file baru.urut dengan menggunakan filter dan tambahkan data tersebut ke file baru.
+8. Gunakan perintah di bawah ini dan perhatikan hasilnya.
+  ```sh
+ $ cat > hello.txt
+ dog cat
+ cat duck
+ dog chicken
+ chicken duck
+ chicken cat
+ dog duck
+ [Ctrl-d]
+ $ cat hello.txt | sort | uniq
+ $ cat hello.txt | grep “dog” | grep –v “cat”
+```
+# LAPORAN RESMI
+1. Analisa hasil percobaan 1 sampai dengan 4, untuk setiap perintah jelaskan tampilannya.
+2. Kerjakan latihan diatas dan analisa hasilnya
+3. Berikan kesimpulan dari praktikum ini.
