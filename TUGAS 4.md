@@ -194,6 +194,9 @@ $ cat out
  $ cat kelas1.txt kelas2.txt > kelas.txt
  $ cat kelas.txt | sort | uniq
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/323fa990-b550-42f6-8741-c7a56c6486b7)
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/fa816c84-f1e6-46fe-b157-060b4cee44d1)
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/68a01524-4f34-4fd1-aff4-9acde927a032)
 
 
 ## LATIHAN :
