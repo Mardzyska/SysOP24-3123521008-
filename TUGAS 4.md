@@ -2,8 +2,41 @@
 ## Jawablah pertanyaan-pertanyaan di bawah ini :
 
 1. Apa yang dimaksud redirection?
+* Pembelokan dilakukan untuk standard input, output dan error, yaitu untuk mengalihkan file descriptor dari 0, 1 
+dan 2. Simbol untuk pembelokan adalah : 
+
+0< atau < pengganti standard inp ut 
+1> 
+2> atau > pengganti standard output 
+   
 2. Apa yang dimaksud pipeline?
-3. Apa yang dimaksud perintah di bawah ini : echo, cat, more, sort, grep, wc, cut, uniq
+ * Mekanisme pipa digunakan sebagai alat komunikasi antar proses. 
+
+Input => Proses1 => Output => Input => Proses2 => Output Proses 1 menghasilkan output yang selanjutnya 
+digunakan sebagai input oleh Proses . Hubungan output input ini dinamakan pipa, yang menghubngkan 
+Proses 1 dengan Proses2 dan dinyatakan dengan symbol “|”. 
+
+ 
+Proses1 | Proses2 
+
+3 . Apa yang dimaksud perintah di bawah ini : echo, cat, more, sort, grep, wc, cut, uniq
+
+echo, cat, more, sort, grep, wc, cut, uniq  
+• Perintah grep 
+Digunakan untuk menyaring masukannya da n menampilkan baris-baris yang hanya mengandung pola yang 
+ditentukan. Pola ini disebut regular expression. 
+• Perintah wc 
+Digunakan untuk menghitung jumlah baris, kata dan karakter dari baris-baris masukan yang diberikan 
+kepadanya. Untuk mengetahui berapa baris gunakan option – l, untuk mengetahui berapa kata, gunakan 
+option –w dan untuk mengetahui berapa karakter, gunakan option –c. Jika salah satu option tidak digunakan, 
+maka tampilannya adalah jumlah baris, jumlah kata dan jumlah karakter. 
+• Perintah sort 
+Digunakan untuk mengurutkan masukannya berdasarkan urutan nomor ASCII dari karakter. 
+• Perintah cut 
+Digunakan untuk mengambil kolom tertentu dari baris-baris masukannya, yang ditentukan pada option –c. 
+• Perintah uniq 
+Digunakan untuk menghilangkan baris-baris berurutan yang mengalami duplikasi, biasanya digabungkan 
+dalam pipeline dengan sort. 
 
 # PERCOBAAN
 1. Login sebagai user.
@@ -19,6 +52,10 @@ $ ps
 ```
 ![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/fb8df44c-f0e9-4067-ab4b-a93b125abf90)
 
+* $ ps yaitu perintah yang digunakan untuk memperlihatkan proses yang sedang berjalan pada
+sistem (kernel) kemudian diperlihatkan pada layar (proses status). Input berasal dari system
+(kernel), sedangkan output ditampilkan ke layar (standar output)
+
 2. Output ke layar (standar output), input dari keyboard (standard input)
    
  ```sh
@@ -30,6 +67,9 @@ $ ps
  [Ctrl-d]
 ```
 ![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/e4d306d9-f2ba-4073-a6f1-63196fe30195)
+
+* . $ cat yaitu perintah mengambil input dari keyboard dan kemudian output ditampilkan ke
+layar.
 
 3. Input nama direktori, output tidak ada (membuat direktori baru), bila terjadi error maka tampilan error pada layar (standard error)
  ```sh
