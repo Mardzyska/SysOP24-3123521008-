@@ -150,13 +150,15 @@ Anda merujuk pada dokumentasi atau panduan yang relevan untuk memahami perintah 
 ## PERBANDINGAN EKSEKUSI
 https://docs.google.com/spreadsheets/d/1CVZH3rk8T0rY-0BirmPdzeeieXzrKRjIVq6fb6Yu5GQ/edit#gid=0
 
-![WhatsApp Image 2024-03-18 at 09 04 09_09100271](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/4b9a8e9a-0b81-47a7-b17b-b50086600b65
+![WhatsApp Image 2024-03-18 at 09 04 09_09100271](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/f179b8b9-c8ef-40ee-8da1-a471fa096954)
+
 
 **Analisa**
 
 Dari plot perbandingan di atas, dapat dilihat bahwa Alyssa memiliki nilai rata-rata IOPS dan FLOPS yang lebih tinggi dibandingkan dengan Dyzka, Pelangi, dan Feby. Hal ini menunjukkan bahwa PC Alyssa cenderung memiliki performa yang lebih baik dalam menangani operasi input/output (IOPS) dan operasi floating point (FLOPS).
 
 **Kesimpulan**
+
 Kesimpulan yang bisa diambil adalah performa komputer dalam hal IOPS dan FLOPS sangat penting tergantung pada kebutuhan aplikasi atau tugas yang dijalankan. Semakin tinggi nilai IOPS dan FLOPS, semakin baik kemampuan komputer tersebut dalam menangani tugas-tugas yang memerlukan operasi input/output dan operasi floating point secara cepat dan efisien.
 
   # Nomor 4
