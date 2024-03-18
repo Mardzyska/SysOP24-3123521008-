@@ -129,6 +129,9 @@ $ rm tmp
 $ ls –l /etc | more
 $ ls –l /etc | sort | moret – surat
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/3e6cb044-a830-42cf-a7d8-dc1aaea76753)
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/cf826ad6-d5ba-4c14-b7b8-096cdb0e42c2)
+
 2. Untuk membelokkan standart output ke file, digunakan operator ">"
 
 ```sh
@@ -136,15 +139,21 @@ $ echo hello
 $ echo hello > output
 $ cat output
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/14b5d4d4-c215-46c1-9169-ad156fee9d2f)
+
 3.  Untuk menambahkan output ke file digunakan operator ">>"
   ```sh
 $ echo bye >> output
 $ cat output
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/6b4c8e54-681f-463a-a497-d26e78cc49cf)
+
 4. Untuk membelokkan standart input digunakan operator "<"
   ```sh
 $ cat < output
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/287278ef-76f1-4099-ba00-d726fd5b1681)
+
 5. Pembelokan standart input dan standart output dapat dikombinasikan tetapi tidak boleh menggunakan nama file yang sama sebagai standart input dan output.
   ```sh
 $ cat < output > out
@@ -157,6 +166,8 @@ $ cat < out >> out (Proses tidak berhenti)
 [Ctrl-c]
 $ cat out
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/a2236521-4b63-48bc-95f5-8b774e034d62)
+
 
 ## Percobaan 4 : Filter
 
@@ -183,6 +194,8 @@ $ cat out
  $ cat kelas1.txt kelas2.txt > kelas.txt
  $ cat kelas.txt | sort | uniq
 ```
+
+
 ## LATIHAN :
 
 1. Lihat daftar secara lengkap pada direktori aktif, belokkan tampilan standard output ke file baru.
