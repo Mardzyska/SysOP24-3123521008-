@@ -202,10 +202,20 @@ $ cat out
 ## LATIHAN :
 
 1. Lihat daftar secara lengkap pada direktori aktif, belokkan tampilan standard output ke file baru.
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/f3b4fab4-7911-4bdf-bc82-ad6a5c1ea155)
+
 2. Lihat daftar secara lengkap pada direktori /etc/passwd, belokkan tampilan standard output ke file baru tanpa menghapus file baru sebelumnya.
+ ![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/d32838bc-e235-4faf-9c91-050e84935720)
+  
 3. Urutkan file baru dengan cara membelokkan standard input.
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/bd7ed2d6-58af-4e13-bf79-1fd58cd38699)
+
 4. Urutkan file baru dengan cara membelokkan standard input dan standard output ke file baru.urut.
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/2ce9dd3a-cd1e-4d62-a0c8-ebe265ecde6f)
+
 5. Buatlah direktori latihan 2 sebanyak 2 kali dan belokkan standard error ke file rmdirerror.txt.
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/955a85c1-b4c7-4db7-9a7f-3d6def81bf83)
+
 6. Urutkan kalimat berikut :
   ```sh
 Jakarta
@@ -216,9 +226,12 @@ Palembang
 Lampung
 ```
 Dengan menggunakan notasi here document (<@@@ ...@@@) . HINT
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/787e2932-bcd3-4373-9645-a60849cfcf40)
 
 7. Hitung jumlah baris, kata dan karakter dari file baru.urut dengan menggunakan filter dan tambahkan data tersebut ke file baru.
-8. Gunakan perintah di bawah ini dan perhatikan hasilnya.
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/15cf5d65-f1c4-4b47-89b8-4b688da3c42d)
+
+9. Gunakan perintah di bawah ini dan perhatikan hasilnya.
   ```sh
  $ cat > hello.txt
  dog cat
@@ -231,6 +244,9 @@ Dengan menggunakan notasi here document (<@@@ ...@@@) . HINT
  $ cat hello.txt | sort | uniq
  $ cat hello.txt | grep “dog” | grep –v “cat”
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/414d9104-7bb9-45cb-8477-b904fb16e6d2)
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/a2f21199-1fe7-4121-b979-06d1c85a9f36)
+
 # LAPORAN RESMI
 1. Analisa hasil percobaan 1 sampai dengan 4, untuk setiap perintah jelaskan tampilannya.
 2. Kerjakan latihan diatas dan analisa hasilnya
