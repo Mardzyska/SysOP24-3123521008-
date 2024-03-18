@@ -17,6 +17,8 @@
 ```sh
 $ ps
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/fb8df44c-f0e9-4067-ab4b-a93b125abf90)
+
 2. Output ke layar (standar output), input dari keyboard (standard input)
    
  ```sh
@@ -27,11 +29,15 @@ $ ps
  exit dengan ^d
  [Ctrl-d]
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/e4d306d9-f2ba-4073-a6f1-63196fe30195)
+
 3. Input nama direktori, output tidak ada (membuat direktori baru), bila terjadi error maka tampilan error pada layar (standard error)
  ```sh
 $ mkdir mydir
 $ mkdir mydir **(Terdapat pesan error)**
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/285c3619-f50b-4e7d-9df9-6e8389eb721b)
+
 ## Percobaan 2 : Pembelokan (redirection)
 1. Pembelokan standar output
 
@@ -39,17 +45,23 @@ $ mkdir mydir **(Terdapat pesan error)**
  $ cat 1> myfile.txt
  Ini adalah teks yang saya simpan ke file myfile.txt
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/0cccaa16-29ab-4df2-8e19-cd8d75b4ecb4)
+
 2. Pembelokan standar input, yaitu input dibelokkan dari keyboard menjadi dari file
  ```sh
  $ cat 0< myfile.txt
  $ cat myfile.txt
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/ec32005f-dd2b-4c7e-80fe-ba8c8197a172)
+
 3. Pembelokan standar error untuk disimpan di file
  ```sh
  $ mkdir mydir (Terdapat pesan error)
  $ mkdir mydir 2> myerror.txt
  $ cat myerror.txt
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/3ce5491c-126b-4313-8e42-a7b63f2895a3)
+
 4. Notasi 2>&1 : pembelokan standar error (2>) adalah identik dengan file descriptor 1.
  ```sh
  $ ls filebaru (Terdapat pesan error)
@@ -58,6 +70,7 @@ $ mkdir mydir **(Terdapat pesan error)**
  $ ls filebaru 2> out.txt 2>&
  $ cat out.txt
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/e0e1dd28-e876-441d-8796-f8190963151e)
 
 5. Notasi 1>&2 (atau >&2) : pembelokan standar output adalah sama dengan file descriptor 2 yaitu standar error
 
@@ -66,6 +79,7 @@ $ echo “mencoba menulis file” 1> baru
 $ cat filebaru 2> baru 1>&
 $ cat baru
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/c6647be1-4b96-4dfc-807c-28ad6dd713fe)
 
 6. Notasi >> (append)
  ```sh
@@ -76,6 +90,8 @@ $ cat surat
 $ echo “kata keempat” > surat
 $ cat surat
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/f0ee67b2-0bce-4e22-8534-2cd98866c4dd)
+
 7. Notasi here document (<<++ .... ++) digunakan sebagai pembatas input dari keyboard. Perhatikan bahwa tanda pembatas dapat digantikan dengan tanda apa saja, namun harus sama dan tanda penutup harus diberikan pada awal baris
 
  ```sh
@@ -90,11 +106,15 @@ Baik-baik saja?
 Ok!
 %%%
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/a26a763f-8f7a-42fc-932e-ee72f7201449)
+
 8. Notasi – (input keyboard) adalah representan input dari keyboard. Artinya menampilkan file 1, kemudian menampilkan input dari keyboard dan menampilkan file 2. Perhatikan bahwa notasi “-“ berarti menyelipkan input dari keyboard
 
  ```sh
 $ cat myfile.txt – surat
 ```
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/90e5853e-2189-40bb-8c80-a5557f1ac8de)
+
 ## Percobaan 3 : Pipa (pipeline)
 
 1. Operator pipa (|) digunakan untuk membuat eksekusi proses dengan melewati data langsung ke data lainnya.
