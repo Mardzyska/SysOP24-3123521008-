@@ -180,7 +180,7 @@ Kesimpulan yang bisa diambil adalah performa komputer dalam hal IOPS dan FLOPS s
 ```sh
 $ apt install gcc
 ```
-![Uploading image.png…]()
+![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/a62a023f-23bd-4bed-bf98-1f28fe1f1b31)
 
 ```sh
 $ git clone https://github.com/ferryastika/flops-iops
@@ -189,4 +189,5 @@ $ git clone https://github.com/ferryastika/flops-iops
 ```sh
 $ cd flops-iops
 ```
+![Uploading image.png…]()
 
