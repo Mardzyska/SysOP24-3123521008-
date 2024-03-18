@@ -144,10 +144,21 @@ Penjelasan tentang fungsionalitas dari perintah Debian :
 * **make clean** : Perintah ini menghapus file-file sementara dan output dari proses kompilasi. Namun, perintah ini hanya memengaruhi direktori sumber/kompilasi dan tidak menghapus perangkat lunak yang telah diinstal sebelumnya.
 * **sudo make install** : Perintah ini menginstal perangkat lunak yang telah dikompilasi ke dalam sistem. Biasanya, perintah ini memerlukan hak akses administrator (dengan menggunakan sudo).
 * **sudo make uninstall** : Jika tersedia, perintah ini akan menghapus perangkat lunak yang telah diinstal sebelumnya menggunakan sudo make install. Namun, tidak semua perangkat lunak menyediakan perintah ini. Jika tidak tersedia, Anda harus menghapusnya secara manual.
-* **iosp64 $(nproc)** dan **flops64 $(nproc)** : Perintah ini mungkin spesifik untuk sistem atau perangkat lunak tertentu. Tanpa informasi lebih lanjut, saya tidak dapat memberikan penjelasan yang lebih rinci. Pastikan Anda merujuk pada dokumentasi atau panduan yang relevan untuk memahami perintah ini dengan lebih baik.
+* **iosp64 $(nproc)** dan **flops64 $(nproc)** : Perintah ini mungkin spesifik untuk sistem atau perangkat lunak tertentu. Tanpa informasi lebih lanjut, saya tidak dapat memberikan penjelasan yang lebih rinci. Pastikan )
+Anda merujuk pada dokumentasi atau panduan yang relevan untuk memahami perintah ini dengan lebih baik.
 
 ## PERBANDINGAN EKSEKUSI
 https://docs.google.com/spreadsheets/d/1CVZH3rk8T0rY-0BirmPdzeeieXzrKRjIVq6fb6Yu5GQ/edit#gid=0
+
+![WhatsApp Image 2024-03-18 at 09 04 09_09100271](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/4b9a8e9a-0b81-47a7-b17b-b50086600b65
+
+**Analisa**
+
+Dari plot perbandingan di atas, dapat dilihat bahwa Alyssa memiliki nilai rata-rata IOPS dan FLOPS yang lebih tinggi dibandingkan dengan Dyzka, Pelangi, dan Feby. Hal ini menunjukkan bahwa PC Alyssa cenderung memiliki performa yang lebih baik dalam menangani operasi input/output (IOPS) dan operasi floating point (FLOPS).
+
+**Kesimpulan**
+Kesimpulan yang bisa diambil adalah performa komputer dalam hal IOPS dan FLOPS sangat penting tergantung pada kebutuhan aplikasi atau tugas yang dijalankan. Semakin tinggi nilai IOPS dan FLOPS, semakin baik kemampuan komputer tersebut dalam menangani tugas-tugas yang memerlukan operasi input/output dan operasi floating point secara cepat dan efisien.
+
   # Nomor 4
 ```sh
   $ su -l
