@@ -95,3 +95,18 @@ Ok!
  ```sh
 $ cat myfile.txt – surat
 ```
+## Percobaan 3 : Pipa (pipeline)
+
+1. Operator pipa (|) digunakan untuk membuat eksekusi proses dengan melewati data langsung ke data lainnya.
+
+ ```sh
+$ who
+$ who | sort
+$ who | sort –r
+$ who > tmp
+$ sort tmp
+$ rm tmp
+$ ls –l /etc | more
+$ ls –l /etc | sort | moret – surat
+```
+2. 
