@@ -3,6 +3,7 @@
 Berikut adalah presentasi langkah demi langkah tentang siklus CPU (fetch, decode, execute) untuk mengeksekusi sebuah program, serta penjelasan mengenai peran bahasa pemrograman, compiler, dan sistem operasi:
 
 1. Siklus CPU (Fetch, Decode, Execute)
+   
 **Fetch (Ambil)**
 * CPU mengambil instruksi dari memori utama (RAM).
 * Alamat memori instruksi disimpan dalam register program counter (PC).
@@ -17,6 +18,7 @@ Berikut adalah presentasi langkah demi langkah tentang siklus CPU (fetch, decode
 * Operasi ini melibatkan manipulasi data, perhitungan, dan akses ke perangkat keras.
 
 2. Peran Bahasa Pemrograman dan Compiler
+   
 **Bahasa Pemrograman**
 
 * Bahasa pemrograman adalah alat yang digunakan oleh programmer untuk menulis kode sumber program.
@@ -33,7 +35,7 @@ Contoh compiler: GCC (untuk C/C++), javac (untuk Java), dan Kotlin compiler.
 
 Sistem operasi mengelola sumber daya perangkat keras dan menyediakan layanan ke pengguna.
 
-Fungsi sistem operasi:
+**Fungsi sistem operasi:**
 * Mengelola memori, proses, dan perangkat keras.
 * Menyediakan antarmuka untuk pengguna dan aplikasi.
 * Mengoptimalkan kinerja komputer.
