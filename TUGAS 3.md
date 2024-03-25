@@ -3,15 +3,23 @@
 Berikut adalah presentasi langkah demi langkah tentang siklus CPU (fetch, decode, execute) untuk mengeksekusi sebuah program, serta penjelasan mengenai peran bahasa pemrograman, compiler, dan sistem operasi:
 ![2](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/fd22ede4-dfe2-4e6d-8792-7b84b09fb44e)
 
-
+Dari bahasa assembly bisa saja diartikan secara sederhana menjadi,
+LOAD (ambil) instruksi dari memori 10 ke akumulator, lalu ADD (tambahkan)
+dari memori 11 dengan apa yang ada di akumulator, dan STORE (simpan)
+dari penjumlahan tadi yang ada diakumulator ke memori 12 
 ![1](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/d7347623-8330-4a93-803e-1f1ce54ab98b)
-
+*  CPU itu terdapat Control Unit, Accumulator, dan ALU atau Arithmetic Logic Unit.
+Selain 3 itu terdapat register lain seperti Program Counter (PC), Current Intruction Register
+(CIR), Memory Address Register (MAR), dan Memory Data Register (MDR).
 
 ![3](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/8b989208-5ff0-4fc1-a8ac-b5013a28a740)
-
+* Pertama Program Counter akan menyimpan insturksi selanjutnya yang akan
+dieksekusi
 
 ![4](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/b4b11684-d029-42f6-aa9e-22edbe18df47)
-
+* Selanjutnya alamat memori tadi harus disimpan didalam Memory Address Register,
+setelah itu isi dari alamat memori tersebut akan dimuat di Memory Data Register,
+Selanjutnya instruksi tadi harus disimpan di Current Instruction Register. 
 
 ![5](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/990a4e0b-01a7-4c49-ac97-d0bbe522dcfe)
 
@@ -26,7 +34,8 @@ Berikut adalah presentasi langkah demi langkah tentang siklus CPU (fetch, decode
 
 ![8](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/24095a32-256a-462c-91e3-1e3a357574be)
 
-
+* Setelah diambil ke dalam Current Instruction Register, Program Counter nya akan
+bertambah 1.
 
 ![9](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/a208fec7-38a1-4d2d-85ba-2c30167c7e97)
 
