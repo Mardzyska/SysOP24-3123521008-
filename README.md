@@ -31,8 +31,16 @@ Hubungan antara arsitektur CPU (Central Processing Unit) dan arsitektur sistem o
 - **Optimisasi Kinerja**: OS sering dioptimalkan untuk arsitektur CPU tertentu untuk meningkatkan kinerja. Pengembang OS mungkin akan menggunakan fitur khusus dari CPU, seperti set instruksi khusus atau teknologi virtualisasi, untuk meningkatkan efisiensi.
 
 - **Keamanan**: Fitur keamanan yang disediakan oleh CPU, seperti eksekusi yang terpisah dari data atau enkripsi memori, harus didukung dan dikelola oleh OS untuk memberikan lingkungan yang aman.
-![Screenshot 2024-04-28 154736](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/449b3f86-c537-49ab-8b9a-a7ae2e9fb479)
-![Screenshot 2024-04-28 155109](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/da68d75c-066b-4c28-bf0e-b1d2a0ff57a7)
-![Screenshot 2024-04-28 164132](https://github.com/Mardzyska/SysOP24-3123![Screenshot 2024-04-28 170800](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/5939061c-268e-4ddb-b5ce-8dd887e45d6f)
-521008-/assets/139208195/5e50191b-88cc-4ee1-96f4-c31368e09f5b)
+![Screenshot 2024-04-28 154736](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/583a20c4-e71c-4b94-a227-deee1e269b0f)
+![Screenshot 2024-04-28 155109](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/d6ae671e-bd2d-457a-ba46-1135f2fd5acd)
+
+![Screenshot 2024-04-28 164132](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/047b9aff-f574-480a-9a81-6a3b5a252252)
+![Screenshot 2024-04-28 170800](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/acb8b68d-5937-430b-b701-d90a40d58ad8)
+
+
+![Screenshot 2024-04-28 192116](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/01f7a65f-138f-42bd-8974-76f8a2425ea0)
+![Screenshot 2024-04-28 192140](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/971466ce-4429-40cd-8874-42cb33b04135)
+
+![Screenshot 2024-04-28 200027](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/56b7cbda-48dd-49a4-ac87-93cfb4e60552)
+
 
