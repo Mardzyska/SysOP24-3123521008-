@@ -31,7 +31,21 @@ Hubungan antara arsitektur CPU (Central Processing Unit) dan arsitektur sistem o
 - **Optimisasi Kinerja**: OS sering dioptimalkan untuk arsitektur CPU tertentu untuk meningkatkan kinerja. Pengembang OS mungkin akan menggunakan fitur khusus dari CPU, seperti set instruksi khusus atau teknologi virtualisasi, untuk meningkatkan efisiensi.
 
 - **Keamanan**: Fitur keamanan yang disediakan oleh CPU, seperti eksekusi yang terpisah dari data atau enkripsi memori, harus didukung dan dikelola oleh OS untuk memberikan lingkungan yang aman.
+
+  ## FORK
+
+  **Sebelum menjalankan fork terlebih dahalu kita menginstall g++ .
+```sh
+$ su root
+$ sudo apt update
+$ sudo apt upgrade
+$ sudo apt install g++
+``` 
 ![Screenshot 2024-04-28 154736](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/583a20c4-e71c-4b94-a227-deee1e269b0f)
+**Lalu kembali menjadi User
+```sh
+$login [username]
+``` 
 ![Screenshot 2024-04-28 155109](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/d6ae671e-bd2d-457a-ba46-1135f2fd5acd)
 
 ![Screenshot 2024-04-28 164132](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/047b9aff-f574-480a-9a81-6a3b5a252252)
