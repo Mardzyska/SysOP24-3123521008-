@@ -34,7 +34,7 @@ Hubungan antara arsitektur CPU (Central Processing Unit) dan arsitektur sistem o
 
   ## FORK
 
-  **Sebelum menjalankan fork terlebih dahalu kita menginstall g++ .
+  *Sebelum menjalankan fork terlebih dahalu kita menginstall g++ .
 ```sh
 $ su root
 $ sudo apt update
@@ -42,7 +42,7 @@ $ sudo apt upgrade
 $ sudo apt install g++
 ``` 
 ![Screenshot 2024-04-28 154736](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/583a20c4-e71c-4b94-a227-deee1e269b0f)
-**Lalu kembali menjadi User
+*Lalu kembali menjadi User
 ```sh
 $login [username]
 ``` 
