@@ -47,30 +47,191 @@ $ sudo apt install g++
 $ login [username]
 ``` 
 ![Screenshot 2024-04-28 155109](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/d6ae671e-bd2d-457a-ba46-1135f2fd5acd)
-
+**Fork 1**
+* Masukan ke compiler
 ```sh
 $ nano fork01.cpp
+```
+* Lalu MengInputkan Source code
+```sh
+using namespace std;
+
+#include <iostream>
+#include <sys/types.h>
+#include <unistd.h>
+
+
+/* getpid() adalah system call yg dideklarasikan pada unistd.h.
+Menghasilkan suatu nilai dengan type pid_t.
+pid_t adalah type khusus untuk process id yg ekuivalen dg int
+*/
+int main(void) {
+	pid_t mypid;
+	uid_t myuid;
+	for (int i = 0; i < 3; i++) {
+		mypid = getpid();
+		cout << "I am process " << mypid << endl;
+		cout << "My parent process ID is " << getppid() << endl;
+		cout << "The owner of this process has uid " << getuid()
+	<< endl;
+/* sleep adalah system call atau fungsi library
+yang menghentikan proses ini dalam detik
+*/
+	sleep(3);
+	}
+return 0;
+}
+```
+* Lalu file 'ccp' menjadi 'exe' 
+```sh
 $ g++ fork01.cpp -o fork01.exe
+```
+* Menjalankan Source codenya
+```sh
 $ ./fork01.exe
 ``` 
 ![Screenshot 2024-04-28 164132](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/047b9aff-f574-480a-9a81-6a3b5a252252)
+**Fork 2**
+
+* Masukan ke compiler
 ```sh
 $ nano fork02.cpp
+```
+* Lalu MengInputkan Source code
+```sh
+#include <iostream>
+#include <sys/types.h>
+#include <unistd.h>
+using namespace std;
+
+
+/* getpid() dan fork() adalah system call yg dideklarasikan
+pada unistd.h.
+Menghasilkan suatu nilai dengan type pid_t.
+pid_t adalah type khusus untuk process id yg ekuivalen dg int
+*/
+int main(void) {
+	pid_t childpid;
+	int x = 5;
+	childpid = fork();
+
+	while (1) {
+		cout << "This is process ID" << getpid() << endl;
+		cout << "In this process the value of x becomes " << x << endl;	
+		sleep(2);
+		x++;
+	}
+	return 0;
+}
+```
+* Lalu file 'ccp' menjadi 'exe'
+```sh
 $ g++ fork02.cpp -o fork02.exe
+```
+* Menjalankan Source codenya
+```sh
 $ ./fork02.exe
 ``` 
 ![Screenshot 2024-04-28 170800](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/acb8b68d-5937-430b-b701-d90a40d58ad8)
 
+**Orphan**
+* Masukan Ke compiler
 ```sh
 $ nano orphan.c
+```
+* Lalu MengInputkan Source code
+```sh
+#include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
+
+int main()
+{
+	// fork() Create a child process
+
+	int pid = fork();
+	if (pid > 0)
+	{
+		//getpid() returns process id
+		// while getppid() will return parent process id
+		printf("Parent process\n");
+		printf("ID : %d\n\n",getpid());
+	}
+	else if (pid == 0)
+	{
+		printf("Child process\n");
+		// getpid() will return process id of child process
+		printf("ID: %d\n",getpid());
+		// getppid() will return parent process id of child process
+		printf("Parent -ID: %d\n\n",getppid());
+
+		sleep(10);
+
+		// At this time parent process has finished.
+		// So if u will check parent process id 
+		// it will show different process id
+		printf("\nChild process \n");
+		printf("ID: %d\n",getpid());
+		printf("Parent -ID: %d\n",getppid());
+	}
+	else
+	{
+		printf("Failed to create child process");
+	}
+	
+	return 0;
+}
+
+/* https://www.includehelp.com/c-programs/orphan-process.aspx */
+```
+* Lalu file 'c' menjadi 'exe'
+```sh
 $ g++ orphon.c -o orphan.exe
+```
+* Menjalankan Source codenya
+```sh
 $ ./orphan.exe
 ``` 
 
 ![Screenshot 2024-04-28 192116](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/01f7a65f-138f-42bd-8974-76f8a2425ea0)
+
+**Zombie**
+* Masukan Ke compiler
 ```sh
 $ nano zombie.c
+```
+* Lalu MengInputkan Source code
+```sh
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+int main ()
+{
+  pid_t child_pid;
+
+   /* Create child*/
+  child_pid = fork ();
+  if (child_pid > 0) {
+
+    /* Parent process */
+    sleep (60);
+  }
+  else {
+
+    /*Child process. Exit immediately. */
+    exit (0);
+  }
+  return 0;
+}
+
+/*ps -e -o pid,ppid,stat,cmd */
+```
+* Lalu file 'c' menjadi 'exe'
+```sh
 $ g++ zombie.c -o zombie.exe
+```
+* Menjalankan Source codenya
+```sh
 $ ./zombie.exe
 ``` 
 ![Screenshot 2024-04-28 200027](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/56b7cbda-48dd-49a4-ac87-93cfb4e60552)
