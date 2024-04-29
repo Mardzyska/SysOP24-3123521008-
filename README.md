@@ -44,17 +44,35 @@ $ sudo apt install g++
 ![Screenshot 2024-04-28 154736](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/583a20c4-e71c-4b94-a227-deee1e269b0f)
 * Lalu kembali menjadi User
 ```sh
-$login [username]
+$ login [username]
 ``` 
 ![Screenshot 2024-04-28 155109](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/d6ae671e-bd2d-457a-ba46-1135f2fd5acd)
 
+```sh
+$ nano fork01.cpp
+$ g++ fork01.cpp -o fork01.exe
+$ ./fork01.exe
+``` 
 ![Screenshot 2024-04-28 164132](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/047b9aff-f574-480a-9a81-6a3b5a252252)
+```sh
+$ nano fork02.cpp
+$ g++ fork02.cpp -o fork02.exe
+$ ./fork02.exe
+``` 
 ![Screenshot 2024-04-28 170800](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/acb8b68d-5937-430b-b701-d90a40d58ad8)
 
+```sh
+$ nano orphan.c
+$ g++ orphon.c -o orphan.exe
+$ ./orphan.exe
+``` 
 
 ![Screenshot 2024-04-28 192116](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/01f7a65f-138f-42bd-8974-76f8a2425ea0)
-![Screenshot 2024-04-28 192140](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/971466ce-4429-40cd-8874-42cb33b04135)
-
+```sh
+$ nano zombie.c
+$ g++ zombie.c -o zombie.exe
+$ ./zombie.exe
+``` 
 ![Screenshot 2024-04-28 200027](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/56b7cbda-48dd-49a4-ac87-93cfb4e60552)
 
 
