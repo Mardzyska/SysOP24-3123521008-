@@ -235,5 +235,11 @@ $ g++ zombie.c -o zombie.exe
 $ ./zombie.exe
 ``` 
 ![Screenshot 2024-04-28 200027](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/56b7cbda-48dd-49a4-ac87-93cfb4e60552)
+## Producer-Consumer problem
+
+
+Produsen mencoba memasukkan data ke slot kosong buffer. Seorang konsumen mencoba untuk menghapus data dari slot diisi dalam buffer. Seperti yang mungkin sudah Anda duga sekarang, kedua proses tersebut tidak akan menghasilkan output yang diharapkan jika dijalankan secara bersamaan.
+
+Perlu ada cara untuk membuat produsen dan konsumen bekerja secara independen.
 
 
