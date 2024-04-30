@@ -241,5 +241,5 @@ $ ./zombie.exe
 
 Bounded Buffer Problem adalah suatu struktur data untuk menampung (buffer) suatu nilai dimana kapasitasnya tertentu/terbatas (bounded). Masalah bounded buffer merupakan salah satu masalah yang menerangkan sinkronisasi antara proses-proses yang berjalan secara konkuren untuk mengakses data yang sama.
 
-![image](https://github.com/Mardzyska/SysOP24-3123521008-/assets/139208195/24fc8213-1566-4a73-936c-5d3abfe8b047)
+
 
