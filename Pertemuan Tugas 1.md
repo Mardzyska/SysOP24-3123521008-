@@ -77,8 +77,9 @@ dan komputer pertama mulai beroperasi pada tahun 1949.
    * Ciri-ciri komputer generasi kedua adalah : 
 * Ukurannya lebih kecil: 
     * Komputer generasi kedua berukuran jauh lebih kecil dibandingkan 
-
-komputer generasi pertama. 
+```sh
+ komputer generasi pertama. 
+``` 
 * Perubahan sirkuit: 
     * Perubahan utama adalah penggunaan transistor sebagai pengganti tabung vakum (tabung vakum digunakan pada komputer generasi pertama). 
 
@@ -91,26 +92,29 @@ komputer generasi pertama.
     * Penghitungan data dapat dilakukan dalam mikrodetik. 
 * Biaya: 
     * Biaya komputer generasi kedua lebih rendah dibandingkan dengan komputer generasi pertama. 
-'''sh
+```sh
  Kelebihan komputer generasi kedua :
-''''
-
- 
-
+``` 
 a) Ukurannya lebih kecil dibandingkan generasi pertama. 
+
 b) Hal ini lebih dapat diandalkan 
+
 c) Menggunakan lebih sedikit daya dan menghasilkan lebih sedikit panas. 
+
 d) Kecepatan generasi kedua lebih cepat dibandingkan generasi pertama. 
-e) Komputer generasi kedua telah meningkatkan akurasi dan menawarkan 
-portabilitas yang lebih baik. 
-10. Deskripsikan apa itu IC / sirkuit terpadu! 
-➢ Sirkuit terpadu , perakitan komponen elektronik dengan perangkat mini yang 
+
+e) Komputer generasi kedua telah meningkatkan akurasi dan menawarkan portabilitas yang lebih baik. 
+
+**10. Deskripsikan apa itu IC / sirkuit terpadu!** 
+* Sirkuit terpadu , perakitan komponen elektronik dengan perangkat mini yang 
 dibangun di atas substrat semikonduktor. Sirkuit yang dihasilkan adalah 
 sebuah 'chip' monolitik kecil, yang ukurannya mungkin hanya beberapa 
 milimeter persegi. Masing-masing komponen rangkaian umumnya berukuran 
-mikroskopis. 
-11. Apa inovasi terpenting komputer generasi ketiga? 
-➢ a. Tersedianya unit disk berkapasitas besar dan berkecepatan tinggi untuk 
+mikroskopis.
+
+**11. Apa inovasi terpenting komputer generasi ketiga?** 
+
+a.Tersedianya unit disk berkapasitas besar dan berkecepatan tinggi untuk 
 mengakomodasi aliran input yang dikumpulkan dan memori berlebih 
 mengalir bersama dengan pemeliharaan beberapa program yang aktif secara 
 bersamaan dalam eksekusi. 
@@ -135,4 +139,40 @@ dan pemeriksaan mesin selain interupsi I/O. Selain itu, interupsi sistem
 menjadi teknik bagi pengguna program untuk meminta layanan dari 
 pengoperasian inti sistem. 
 
+
+
+e. Munculnya instruksi istimewa memungkinkan sistem operasi untuk menjaga 
+koordinasi dan kontrol atas berbagai aktivitas yang sedang terjadi di dalam 
+sistem. 
+
+**12. Berikan gambaran singkat tentang komputer generasi keempat. Bagaimana teknologinya lebih baik dari generasi sebelumnya?** 
+* Komputer Generasi Keempat (1971 hingga sekarang) Mikroprosesor 
+menyebabkan komputer generasi keempat menjadi lebih kecil dan lebih 
+murah dibandingkan generasi lama. Komputer generasi keempat juga 
+portabel dan lebih dapat diandalkan. Komputer generasi keempat 
+menghasilkan panas yang jauh lebih sedikit dan memerlukan lebih sedikit 
+perawatan dibandingkan generasi lama.
+
+**13. Berapakah masa komputer generasi kelima dan bandingkan inovasi dari generasi sebelumnya?** 
+* Periode generasi kelima adalah tahun 1980 hingga saat ini. 
+
+ Ciri-ciri: 
+* Komponen yang dipakai adalah VLSI (Very Large scale Integration). 
+* Kemampuan komputer dikembangakan untuk memecahkan masalah sendiri dengan bantuan AI (Artificial Intelligence). AI dapat diterapkan untuk mengoperasikan robot. 
+* Mulai dikembangkan komputer yang dapat menggantikan chip. 
+* Jepang adalah negara yang memelopori komputer generasi kelima. 
+
+**14. Apa perbedaan antara perangkat keras dan perangkat lunak?** 
+* Untuk perbedaan software dan hardware yang paling mendasar pada fisiknya. Komponen hardware bisa dilihat dan dipegang dengan menggunakan tangan. Sedangkan, untuk software tidak bisa dipegang dengan tangan. Selain itu, perbedaan juga terlihat berdasarkan dengan fungsinya. 
+
+**15. Apa perbedaan antara perangkat lunak sistem dan perangkat lunak aplikasi?**
+* Antologi program komputer yang mengelola sumber daya sistem adalah perangkat lunak sistem, sedangkan menurut kebutuhan pengguna, perangkat lunak aplikasi dibangun untuk tugas-tugas tertentu. 
+* Perangkat lunak sistem menghubungkan perangkat lunak aplikasi dan perangkat keras komputer, sedangkan hubungan antara perangkat lunak sistem dan pengguna akhir dilakukan melalui perangkat lunak aplikasi. 
+* Perangkat lunak sistem ditulis dalam bahasa rakitan, bahasa tingkat rendah, sedangkan perangkat lunak aplikasi ditulis dalam C++, C, atau Java, bahasa tingkat tinggi. 
+* Saat komputer dihidupkan, perangkat lunak sistem beroperasi secara otomatisdan mulai berfungsi seketika, sedangkan perangkat lunak aplikasi beroperasi secara manual, mengharuskan pengguna untuk mulai menggunakannya. 
+* Perangkat lunak sistem dimuat pada mesin dengan penginstalan sistem operasi, sedangkan tergantung permintaan pengguna, perangkat lunak aplikasi diinstal. 
+
+ 
+
+ 
  
