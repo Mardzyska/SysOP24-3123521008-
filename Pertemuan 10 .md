@@ -4,7 +4,9 @@
 Jawaban:
 
 a. Sebuah *web server* yang melayani setiap permintaan dalam *thread* terpisah.
+
 b. Aplikasi yang diparalelkan seperti perkalian matriks, di mana bagian-bagian berbeda dari matriks dapat dikerjakan secara paralel.
+
 c. Program GUI interaktif seperti *debugger*, di mana satu *thread* digunakan untuk memantau masukan pengguna, *thread* lain mewakili aplikasi yang berjalan, dan *thread* ketiga memantau kinerja.
 
 **4.2 Apa dua perbedaan antara *user-level threads* dan *kernel-level threads*? Dalam situasi apa salah satu jenis lebih baik daripada yang lain?**
@@ -12,7 +14,9 @@ c. Program GUI interaktif seperti *debugger*, di mana satu *thread* digunakan un
 Jawaban:
 
 a. *User-level threads* tidak dikenal oleh kernel, sedangkan kernel mengetahui *kernel threads*.
+
 b. Pada sistem yang menggunakan pemetaan M:1 atau M:N, *user threads* dijadwalkan oleh pustaka *thread*, sedangkan kernel menjadwalkan *kernel threads*.
+
 c. *Kernel threads* tidak perlu terkait dengan proses, sedangkan setiap *user thread* terkait dengan proses. *Kernel threads* umumnya lebih mahal untuk dikelola daripada *user threads* karena harus direpresentasikan dengan struktur data kernel.
 
 **4.3 Jelaskan tindakan yang diambil oleh kernel untuk beralih konteks antara *kernel-level threads*.**
