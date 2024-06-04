@@ -59,15 +59,15 @@ adalah salah satu masalah yang sering muncul dalam sistem operasi dan pemrograma
             - Penulis meminta akses ke bagian kritis.
             - Jika diperbolehkan (yaitu `wait(wrt)` memberikan nilai benar), penulis masuk dan menulis.
             - Jika tidak diperbolehkan, penulis menunggu.
-        - Proses pembaca:
+            - Proses pembaca:
             - Pembaca meminta akses ke bagian kritis.
             - Jika diperbolehkan:
-                - Jumlah pembaca dalam bagian kritis bertambah.
-                - Jika pembaca pertama yang masuk, kunci `wrt` untuk mencegah penulis masuk.
-                - Setelah membaca, pembaca keluar dari bagian kritis.
-                - Jika tidak ada pembaca lagi, sinyalkan `wrt` agar penulis dapat masuk.
+            - Jumlah pembaca dalam bagian kritis bertambah.
+            - Jika pembaca pertama yang masuk, kunci `wrt` untuk mencegah penulis masuk.
+            - Setelah membaca, pembaca keluar dari bagian kritis.
+            - Jika tidak ada pembaca lagi, sinyalkan `wrt` agar penulis dapat masuk.
             - Jika tidak diperbolehkan, pembaca menunggu.
-    - Referensi lebih lanjut: ¹.
+            - Referensi lebih lanjut: .
 
 2. **Masalah Dining Philosophers (Masalah Filosof Pemakan):**
     - Masalah ini melibatkan lima filosof yang duduk di sekitar meja bundar dan memikirkan kehidupan mereka.
